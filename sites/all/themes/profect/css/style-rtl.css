@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 1, 2015, 12:49:18 PM
+    Author     : fadi
+*/
+
+
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+        url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.woff) format('woff'),
+        url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+        url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.woff) format('woff'),
+        url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.ttf) format('truetype');
+}
+
+html,body{
+    font-family: 'Droid Arabic Kufi' !important;
+}
+
+h1, h2, h3,
+#portfolio-details-wrap{
+    font-family: 'Droid Arabic Kufi' !important;
+}
+#block-system-main-menu ul li{
+    float: right;
+    margin-right: -5px;
+    margin-left: 0;
+}
+#block-system-main-menu .menu.nav{
+    padding-right: 15px;
+}
+.promo {
+border-right: 3px solid #2780AF;
+border-left: none;
+}
+.page-node-19 .col_three_fifth{
+    float: right;
+}
+.page-node-19 .col_two_fifth.col_last{
+    float: right;  
+}
+.acctitle.about-title{
+    padding: 12px 40px 0px 32px;
+}
+.acc-content.about-content {
+padding: 15px 45px 0px 32px;
+}
+.webform{float: right;}
+.webform-info{float: left;}
+.product-feature {padding-right: 60px;padding-left: 0;}
+.product-feature img, .product-feature > span{right: 0;left: auto;}
+.entry_c,.small-posts .entry_image{float: right;}
+#portfolio-single-wrap #slider{
+    float: right;
+}
+#portfolio-details-wrap{
+    float: right;
+    margin-left: 0px;
+    margin-right: 50px;
+}

@@ -1,0 +1,4 @@
+name = Profect Custom Module
+description = Custom functions related to Profect.
+package = Profect Modules
+core = 7.x
